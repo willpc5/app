@@ -1,6 +1,13 @@
-const mensagem = "Olá mundo!"
-mensagem = 3;
+let meta = {
+    value: 'Ler um livro por mês',
+    checked: true
+}
 
-console.log(mensagem);
-console.log(mensagem);
-console.log(mensagem);
+let metas = [
+    meta, {
+        value: 'Caminhar 20 minutos todos os dias',
+        checked: false
+    }
+]
+
+console.log(metas[1].value);
