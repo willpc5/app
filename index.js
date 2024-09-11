@@ -10,4 +10,4 @@ let metas = [
     }
 ]
 
-console.log(metas[1].value);
+console.log(metas[0].value);
